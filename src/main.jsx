@@ -7,7 +7,12 @@ import './index.css'
 //import MyPromisesAll from './funtion/MyPromisesAll.jsx';
 //import MyPromisesRace from './funtion/MyPromisesRace';
 //import MyFetchs from './funtion/MyFetchs.jsx';
-import MyFetchAPIs from './funtion/miFetchApis.jsx';
+//import MyFetchAPIs from './funtion/miFetchApis.jsx';
+//import MyFetchsAPIsPost from './funtion/MyFetchPost.jsx'
+//import MyFetchAPIsPUT from './funtion/MyFetchPut.jsx'
+import MyFetchAPIsBlob from './funtion/MyFetchBlob.jsx'
+//import MyDataTypes from './methos/MyDataTypes.jsx';
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,7 +23,11 @@ createRoot(document.getElementById('root')).render(
     {/* <MyPromisesAll/> */}
     {/* <MyPromisesRace/> */}
      {/* <MyFetchs/> */}
-    <MyFetchAPIs/>
+    {/* <MyFetchAPIs/> */}
+    {/*<MyFetchsAPIsPost/>*/}
+    <MyFetchAPIsBlob/>  
+    {/*<MyFetchAPIsPUT/>*/}
+    {/*<MyDataTypes/>*/}
 
   </StrictMode>,
 )
