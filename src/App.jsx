@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import  prome1 from'./function/promesa1.jsx'
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import  prome1 from'./function/promesa1.jsx'
+import { ContadorHook } from './components/ContadorHook';
 import viteLogo from '/vite.svg'
 import './App.css'
-
+/*
 function App() {
   const [count, setCount] = useState(0)
 
@@ -33,5 +34,18 @@ function App() {
     </>
   )
 }
+*/
 
+const App = () => {
+  return (
+    <div>
+      <h1>Introducción a Type Script with React</h1>
+      <hr/>
+      {/*<TiposBasicos ></TiposBasicos>*/}
+      {/*<ObjetosLiterales/></ObjetosLiterales>*/}
+      <ContadorHook/>
+      
+    </div>
+  )
+}
 export default App

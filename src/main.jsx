@@ -10,8 +10,13 @@ import './index.css'
 //import MyFetchAPIs from './funtion/miFetchApis.jsx';
 //import MyFetchsAPIsPost from './funtion/MyFetchPost.jsx'
 //import MyFetchAPIsPUT from './funtion/MyFetchPut.jsx'
-import MyFetchAPIsBlob from './funtion/MyFetchBlob.jsx'
+//import MyFetchAPIsBlob from './funtion/MyFetchBlob.jsx'
 //import MyDataTypes from './methos/MyDataTypes.jsx';
+//import MyObjects  from './methos/MyObjects.jsx';
+//import { Contador } from './components/Contador';
+//import { ContadorHook } from './components/ContadorHook';
+import { Login } from './components/Login';
+
 
 
 
@@ -25,9 +30,13 @@ createRoot(document.getElementById('root')).render(
      {/* <MyFetchs/> */}
     {/* <MyFetchAPIs/> */}
     {/*<MyFetchsAPIsPost/>*/}
-    <MyFetchAPIsBlob/>  
+    {/*<MyFetchAPIsBlob/>  */}
     {/*<MyFetchAPIsPUT/>*/}
     {/*<MyDataTypes/>*/}
+    {/*<MyObjects/>*/}
+    {/*<Contador/>*/}
+    {/*<ContadorHook/>*/}
+    <Login/>
 
   </StrictMode>,
 )
